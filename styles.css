@@ -24,18 +24,28 @@ body {
     display: flex;
     margin-left: auto;
     gap: 15px;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.links a {
+    text-decoration: none;
+    color: gainsboro;
 }
 
 .intro {
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    color: gainsboro
+    color: gainsboro;
+}
+
+.objects {
+    margin-top: -250px;
 }
 
 .intro h1 {
@@ -44,6 +54,7 @@ body {
 }
 
 .intro p {
+    font-size: 15px;
     margin-bottom: -15px;
 }
 
@@ -61,16 +72,9 @@ body {
 
 .ttprofilepic img {
     display: flex;
-    width: 300px;
+    align-items: center;
+    width: 400px;
+    margin-top: 60px;
+    margin-bottom: 180px;
 } 
 
-/* .container1 {
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    color: gainsboro;
-    margin-left: 70px;
-    margin-right: 40px;
-}
-
-
-*/
