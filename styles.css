@@ -106,7 +106,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #1F2937;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 
 .container2 {
@@ -137,7 +137,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-grow: 50px;
     margin-top: 40px;
     margin-left: 200px;
     margin-right: 200px;
@@ -145,7 +144,7 @@ body {
     padding-left: 150px;
     padding-right: 150px;
     border-radius: 5px;
-    background-color: #3882f6;
+    background-color: #033B3D;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
@@ -155,6 +154,6 @@ body {
     height: 50px;
     border: 2px solid #FFFFFF;
     border-radius: 10px;
-    background-color: #3882f6;
+    background-color: #033B3D;
     color: #FFFFFF;
 }
