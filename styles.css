@@ -78,3 +78,30 @@ body {
     margin-bottom: 180px;
 } 
 
+.middle h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #033B3D;
+}
+
+.drawings {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.boxes img {
+    width: 300px;
+    height: 300px;
+    border: 6px solid black;
+    border-radius: 10px;
+}
+
+.boxes p {
+    text-align: center;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
