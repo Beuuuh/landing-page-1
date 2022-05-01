@@ -81,6 +81,7 @@ body {
 .middle h2 {
     display: flex;
     justify-content: center;
+    margin-top: 60px;
     font-family: 'Roboto', sans-serif;
     color: #033B3D;
 }
@@ -96,7 +97,7 @@ body {
     height: 300px;
     border: 6px solid #1F2937;
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .boxes p {
@@ -105,7 +106,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #1F2937;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .container2 {
@@ -123,11 +124,37 @@ body {
 }
 
 #firstphrase {
-    padding-top: 40px;
+    padding-top: 100px;
 }
 
 #metallica {
     text-align: right;
     margin-bottom: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 50px;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blue-box button {
+    width: 100px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #FFFFFF;
 }
